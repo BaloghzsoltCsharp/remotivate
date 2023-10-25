@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 700px;;
+    width: 100%;
+}
+
+p {
+  font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 100;
+}
+
+.head-text {
+    position: relative;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Proxima Nova';
+ }
+ .text-on-image {
+  position: absolute;
+  left: 30%;
+  bottom: 60%;
+  color: white;
+  font-size: 300%;
+ }
+
+ /* @media (max-width: 1023px) {
+  .front-page-header-bottom {
+      position:absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      max-height: 226px
+  }
+}
+
+@media (max-width: 1023px) {
+    .front-page-header-list {
+        display:block
+    }
+} 
+
+@media (max-width: 1023px) {
+    .front-page-header-list-text {
+        min-height:88px
+    }
+} 
+
+@media (max-width: 1023px) {
+    .front-page-header-list div {
+        min-height:137px;
+        padding: 22px 20px
+    }
+} */
+
+.header-container{
+  position: relative;
+}
+
+.front-page-header-bottom {
+  position: absolute;
+  bottom: 23%;
+  width: 100%;
+  align-self: flex-end;
+  border-top: 1px solid hsla(0,0%,100%,.15);
+  backdrop-filter: blur(7px);
+  background-color: transparent
+}
+
+.front-page-header-list {
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  list-style: none;
+}
+
+.front-page-header-list-container {
+  display: flex;
+  flex: 1 1 25%;
+  flex-direction: column;
+  color: #fff;
+  border-right: 1px solid hsla(0,0%,100%,.15);
+  /* margin-right: -1px; */
+}
+
+.front-page-header-list-text {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 22px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px
+}
+
+.front-page-header-list div {
+  position: relative;
+  display: block;
+  flex-grow: 1;
+  padding: 22px;
+  transition: border .3s
+}
+
+.front-page-header-descr1 {
+  background: linear-gradient(90deg,#103654,#205377 53%,#31709b 98%);
+}
+
+.front-page-header-descr2 {
+  background: linear-gradient(90deg,#31709b,#418cbe 49%,#51a9e1)
+}
+
+.front-page-header-descr3 {
+  background: linear-gradient(90deg,#51a9e1,#418cbe 63%,#31709b)
+}
+
+.front-page-header-descr4 {
+  background: linear-gradient(90deg,#31709b,#205377 59%,#103654)
+}

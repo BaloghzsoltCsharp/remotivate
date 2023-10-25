@@ -1,0 +1,8 @@
+﻿.vs/
+.idea/
+backend/obj/
+backend/bin/
+.vscode/
+backend/Data/Migrations/20230316165055_DateTimeUpdate.Designer.cs
+backend/Data/Migrations/20230316165055_DateTimeUpdate.cs
+backend/Data/Migrations/RemotivateContextModelSnapshot.cs

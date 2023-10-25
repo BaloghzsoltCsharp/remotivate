@@ -1,0 +1,81 @@
+.update-project-container{
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.update-project-form-container {
+    background-color: #fff;
+    padding-top: 18px;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-top-width: thin;
+}
+
+.update-project-form {
+    padding: 0.5rem;
+}
+
+.update-project-form h2 {
+    padding-bottom: 18px;
+    font-weight: 500;
+}
+
+.update-project-input {
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+/*.search-container {*/
+/*    margin: 20px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*    float: right;*/
+/*    padding: 0;*/
+/*}*/
+
+.update-project-input{
+    display: flex;
+    width: 95%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-weight: 50;
+    border: none;
+    outline: none;
+    top: 0;
+    right: 0;
+    background: none;
+    z-index: 3;
+    border-bottom: 1px solid #888888;
+    border-right: 1px solid #888888;
+}
+
+.update-project-submit-button,.update-project-finished-button
+{
+    display: flex;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 0.375rem 0.75rem;
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.update-project-finished-button:hover,.update-project-submit-button:hover
+{
+    background-color: #51A9E1;
+    border: 1px solid #51A9E1;
+    transition: 150ms;
+}

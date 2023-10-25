@@ -1,0 +1,27 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    padding: 50px 0; 
+    flex-basis: auto;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  .section.donut{
+    flex-grow: 1;
+  }
+  .section.bar{
+    flex-grow: 3;
+    
+  }
+  .section.line{
+    flex-grow: 1;
+  }

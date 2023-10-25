@@ -1,0 +1,51 @@
+.basic-button{
+    width: 10%;
+    height: 50px;
+    font-size: 150%;
+    background-color: #51A9E1;
+    color: #103654;
+}
+
+.basic-button-create{
+    margin-top:5px ;
+    width: 8%;
+    height: 50px;
+    font-size: 100%;
+    background-color: #51A9E1;
+    color: #103654;
+}
+
+.basic-button:hover{background-color: #99cded;
+    transition-duration: 100ms;
+    cursor:pointer;
+}
+
+.basic-button-create:hover{
+    background-color: #99cded;
+    transition-duration: 100ms;
+    cursor:pointer;
+}
+
+
+.project-list-action-button-container {
+    /*min-width: 1890px; !* sets the minimum width of the body element *!*/
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-right: 100px;
+    /*padding-bottom: 40px;*/
+    gap: 30px;
+}
+.project-list-search-container{
+    width: 800px;
+}
+
+.project-list-search-container input{
+    border-radius: 20px;
+}
+
+.project-list-wrapper{
+    padding-top: 100px;
+    width: 100%;
+}

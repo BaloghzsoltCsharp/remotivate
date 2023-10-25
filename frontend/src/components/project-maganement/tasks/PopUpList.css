@@ -1,0 +1,80 @@
+.pop-up-assigned{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    background-color: white;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PopUpList-parent{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.pop-up-assigned-body{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.pop-up-assigned-user{
+    background-color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-width: thin;
+}
+.pop-up-assigned-user:hover {
+    color: rgba(25, 118, 210, 0.8);
+}
+.pop-up-assign h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.pop-up-assign input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+}
+
+.pop-up-assign ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+.pop-up-assign li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pop-up-assign li:hover,
+.pop-up-assign .selected {
+    background-color: #ccc;
+}
+
+.pop-up-assign .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
