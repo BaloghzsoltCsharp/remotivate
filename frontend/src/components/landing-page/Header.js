@@ -10,7 +10,7 @@ const Header = () =>{
           </div>
           <div className='text-on-image'>
             <h1>Remotivate</h1> 
-            <p> Streamline your remote work with Remotivate</p>
+            <p> This is just a student's trying out react.</p>
           </div>
         </div>
         <div className='header-container'>
